@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Bert Van Vreckem
+	email = bert.vanvreckem@gmail.com
+[push]
+	default = simple
+[github]
+	user = bertvv
+[credential]
+	helper = cache --timeout=3600
+[color]
+	ui = true
+[core]
+	excludesfile = /home/bert/.gitignore_global
+	# Don't use line endings from the local OS, keep the originals
+	autocrlf = input
+[alias]
+	co = checkout
